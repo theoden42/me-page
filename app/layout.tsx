@@ -4,10 +4,8 @@ import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import { Sidebar } from './components/sidebar'
 import Footer from './components/footer'
-import { baseUrl } from './sitemap'
 
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
   title: {
     default: 'theoden42 | Portfolio',
     template: '%s | theoden42 | Portfolio',
@@ -19,7 +17,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Divyasn Tripathi | Portfolio',
     description: 'This is my portfolio.',
-    url: baseUrl,
     siteName: 'My Portfolio',
     locale: 'en_US',
     type: 'website',
