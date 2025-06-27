@@ -2,6 +2,13 @@
   max-width: 700px;
   margin: 0 auto;
   padding: 1rem 2rem;
+  padding-left: calc(2rem + 5%);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 2rem;
+  }
 }
 
 .hero {
@@ -52,4 +59,51 @@
 .socialIcons a:hover {
   background-color: white;
   color: black;
+}
+
+/* Timeline styles */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.5rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #666;
+}
+
+.entry {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+}
+
+.bullet {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.3rem;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border: 2px solid #999;
+  border-radius: 50%;
+  transform: translateX(-305%);
+}
+
+.bullet:hover {
+  box-shadow: 0 0 5px white;
+}
+
+.content {
+  margin-left: 0.1rem;
+}
+
+.content p {
+  margin: 0.5rem 0 0;
+  color: #ccc;
 }
