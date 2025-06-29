@@ -7,7 +7,7 @@ import Footer from './components/footer'
 
 export const metadata: Metadata = {
   title: {
-    default: 'theoden42 | Portfolio',
+    default: 'theoden42',
     template: '%s | theoden42 | Portfolio',
   },
   icons: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   description: 'About divyansh and his portfolio.',
   openGraph: {
-    title: 'Divyasn Tripathi | Portfolio',
+    title: 'Divyansh Tripathi | Portfolio',
     description: 'This is my portfolio.',
     siteName: 'My Portfolio',
     locale: 'en_US',
