@@ -31,7 +31,7 @@ export default function HomePage() {
       <section className={styles.section}>
         <h2>What I've been up to recently</h2>
         <div className={styles.timeline}>
-          <div className={styles.entry}>
+          {/* <div className={styles.entry}>
             <div className={styles.bullet} />
             <div className={styles.content}>
               <strong>Software Engineer at Google</strong>
@@ -40,7 +40,7 @@ export default function HomePage() {
                 optimization tricks, model tuning, and shipping things at scale.
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div className={styles.entry}>
             <div className={styles.bullet} />
