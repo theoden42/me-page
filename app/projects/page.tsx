@@ -3,19 +3,14 @@ import styles from '../components/resourcecard.module.css';
 
 const projects = [
   {
-    title: 'Habit Hero',
-    description: 'A gamified habit tracking app with leaderboards and streaks.',
-    href: 'https://github.com/theoden42/habit-hero',
+    title: 'Virtual Contest Maker',
+    description: 'Create virtual contests from problems of Codeforces, Atcoder, Codechef together.',
+    href: 'http://ec2-18-232-66-77.compute-1.amazonaws.com',
   },
   {
     title: 'Portfolio Site',
-    description: 'The site you’re on right now — built with Next.js, Tailwind, and Vercel.',
-    href: 'https://github.com/theoden42/portfolio',
-  },
-  {
-    title: 'Algo Visualizer',
-    description: 'An interactive algorithm visualizer for sorting and pathfinding.',
-    href: 'https://github.com/theoden42/algo-visualizer',
+    description: 'The site you’re on right now — built with Next.js.',
+    href: 'https://github.com/theoden42/me-page',
   },
 ];
 
