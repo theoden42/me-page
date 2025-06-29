@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: '/me-page',
-  assetPrefix: '/me-page',
+  assetPrefix: '',
   images: {
     unoptimized: true, 
   },
