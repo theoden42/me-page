@@ -1,3 +1,4 @@
+
 .wrapper {
   max-width: 700px;
   margin: 0 auto;
@@ -20,26 +21,94 @@
 }
 
 .card {
-  padding: 1.5rem;
+  padding: 1.75rem;
   border: 1px solid #333;
-  border-radius: 12px;
+  border-radius: 16px;
   text-decoration: none;
   transition: all 0.3s ease;
-  background-color: #111;
+  background: linear-gradient(to bottom right, #111, #1a1a1a);
   color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .card:hover {
-  border-color: #777;
-  transform: translateY(-3px);
+  border-color: #888;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.05);
+}
+
+.content {
+  flex-grow: 1;
 }
 
 .card h3 {
-  margin: 0 0 0.5rem;
-  font-size: 1.2rem;
+  margin: 0 0 0.75rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .card p {
   margin: 0;
   color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.subtext {
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.techStack {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.techItem {
+  background: #222;
+  border-radius: 8px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  color: #ddd;
+  border: 1px solid #444;
+}
+
+/* Optional: colored tech badges */
+.react { background: #20232a; color: #61dafb; }
+.express { background: #2e2e2e; color: #eee; }
+.mongodb { background: #163f29; color: #4db33d; }
+.docker { background: #0db7ed; color: #fff; }
+.aws { background: #232f3e; color: #ff9900; }
+.nextjs { background: #000; color: #fff; }
+.typescript { background: #007acc; color: #fff; }
+.tailwindcss { background: #0ea5e9; color: #fff; }
+.githubpages { background: #24292f; color: #fff; }
+
+.footer {
+  margin-top: 1.5rem;
+  border-top: 1px solid #333;
+  padding-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.preview {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #bbb;
+  font-size: 0.9rem;
+}
+
+.preview svg {
+  stroke-width: 2px;
 }

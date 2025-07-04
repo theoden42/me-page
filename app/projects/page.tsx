@@ -14,7 +14,7 @@ const projects = [
     title: 'Portfolio Site',
     description: 'The site you’re on right now — built with Next.js.',
     description2: 'Showcases personal projects and blogs using static export.',
-    techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'GitHub Pages'],
+    techStack: ['Next.js', 'Typescript', 'GitHub Pages'],
     href: 'https://github.com/theoden42/me-page',
     type: 'github' as const,
   },
